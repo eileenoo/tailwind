@@ -1,3 +1,22 @@
+# Needed Dependencies for Tailwind
+
+## tailwindcss
+- Tailwind Main package 
+
+## postcss 
+- Tailwind peer dependency
+- Tailwind is PostCSS Plugin
+- PostCSS is a preprocessor, with many possbile plugins like autoprefixing, nesting, purging unused styles, minifying CSS, adding vendor prefixes, etc.
+
+## autoprefixer
+- Tailwind peer dependency
+- Autoprefixer is PostCSS Plugin
+- Adds vendor prefixes to CSS rules using values from [Can I Use].
+
+[Can I Use]:        https://caniuse.com/ 
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
