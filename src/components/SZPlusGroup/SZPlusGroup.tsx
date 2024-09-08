@@ -10,11 +10,9 @@ export const SZPlusGroup: React.FC<SZPlusGroupProps> = ({
   title,
   href,
   teasers,
-}) => {
-  return (
-    <div>
-      <SZPlusGroupTitle title={title} href={href} />
-      <TeaserGroup teasers={teasers} />
-    </div>
-  );
-};
+}) => (
+  <section>
+    <SZPlusGroupTitle title={title} href={href} />
+    <TeaserGroup teasers={teasers} />
+  </section>
+);

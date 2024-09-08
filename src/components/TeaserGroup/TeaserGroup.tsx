@@ -7,12 +7,9 @@ export interface TeaserGroupProps {
   teasers: Array<TeaserElementProps>;
 }
 export const TeaserGroup: React.FC<TeaserGroupProps> = ({ teasers }) => (
-  <div>
+  <article>
     {teasers.map(({ imageSrc, imageAlt, overline, title, text, href }) => (
       <TeaserElement
-        // w400 * h225 - md
-        // sm w620
-        // lg 217 - 122
         imageSrc={`../${imageSrc}`}
         imageAlt={imageAlt}
         overline={overline}
@@ -21,5 +18,5 @@ export const TeaserGroup: React.FC<TeaserGroupProps> = ({ teasers }) => (
         href={href}
       />
     ))}
-  </div>
+  </article>
 );

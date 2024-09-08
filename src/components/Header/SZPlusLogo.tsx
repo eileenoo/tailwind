@@ -6,6 +6,6 @@ interface SZPlusLogoProps {
 
 export const SZPlusLogo: React.FC<SZPlusLogoProps> = ({ href }) => (
   <a href={href} target="_blank" rel="noopener noreferrer">
-    <img src={szpluslogo} />
+    <img src={szpluslogo} aria-hidden="false" />
   </a>
 );

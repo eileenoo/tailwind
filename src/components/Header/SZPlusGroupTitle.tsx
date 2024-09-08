@@ -9,14 +9,12 @@ export interface SZPlusGroupTitleProps {
 export const SZPlusGroupTitle: React.FC<SZPlusGroupTitleProps> = ({
   title,
   href,
-}) => {
-  return (
-    <div>
-      <a className="" href={href} target="_blank" rel="noopener noreferrer">
-        <h2 className="">{title}</h2>
-        <IoIosArrowForward />
-      </a>
-      <SZPlusLogo href={href} />
-    </div>
-  );
-};
+}) => (
+  <header>
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <h2>{title}</h2>
+      <IoIosArrowForward aria-hidden />
+    </a>
+    <SZPlusLogo href={href} />
+  </header>
+);
