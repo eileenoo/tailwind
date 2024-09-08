@@ -4,6 +4,7 @@
   "teasers": [
     {
       "imageSrc": "urlaub_italien.avif",
+      "imageAlt": "Italienisches Herz mit Daumen hoch",
       "href": "https://www.sueddeutsche.de/projekte/artikel/reise/italien-deutschland-urlaub-reisen-e765269/",
       "overline": "Urlaub",
       "title": "Italien, eine endlose Liebe",
@@ -11,6 +12,7 @@
     },
     {
       "imageSrc": "gesaenge.avif",
+      "imageAlt": "Lippen, die Gesang andeuten",
       "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
       "overline": "Neurowissenschaften",
       "title": "Warum berührt Gesang so sehr?",
@@ -18,6 +20,7 @@
     },
     {
       "imageSrc": "abnehmen.avif",
+      "imageAlt": "Person spritzt sich in Bauch",
       "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
       "overline": "Schlankheitswahn",
       "title": "Der riskante Hype um die Abnehmspritze",
@@ -25,6 +28,7 @@
     },
     {
       "imageSrc": "schule.avif",
+      "imageAlt": "Foto von Frau Irles",
       "href": "https://www.sueddeutsche.de/projekte/artikel/reise/italien-deutschland-urlaub-reisen-e765269/",
       "overline": "Bildung",
       "title": "Frau Irles letzter Schultag",
@@ -32,6 +36,7 @@
     },
     {
       "imageSrc": "king.avif",
+      "imageAlt": "Foto von King Loui",
       "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
       "overline": "Leben auf dem Internat",
       "title": "King Loui gibt’s nicht mehr",
@@ -39,6 +44,7 @@
     },
     {
       "imageSrc": "wissenschaft.avif",
+      "imageAlt": "Foto von Katalin Kariko",
       "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
       "overline": "Katalin Karikó",
       "title": "„Ich habe kein besonderes Talent und nicht mal ein gutes Gedächtnis“",
@@ -46,6 +52,7 @@
     },
     {
       "imageSrc": "kriminell.avif",
+      "imageAlt": "Interpretation Kriminalität Schwarzes Wesen",
       "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
       "overline": "Kriminalität",
       "title": "Gibt es biologische Ursachen für kriminelles Verhalten?",
@@ -53,6 +60,7 @@
     },
     {
       "imageSrc": "reise_dtl.avif",
+      "imageAlt": "Foto von Hasnain Kazim",
       "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
       "overline": "Reise durch Deutschland",
       "title": "Bin ich ein AfD-Versteher?",

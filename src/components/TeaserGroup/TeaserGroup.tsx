@@ -8,12 +8,13 @@ export interface TeaserGroupProps {
 }
 export const TeaserGroup: React.FC<TeaserGroupProps> = ({ teasers }) => (
   <div>
-    {teasers.map(({ imageSrc, overline, title, text, href }) => (
+    {teasers.map(({ imageSrc, imageAlt, overline, title, text, href }) => (
       <TeaserElement
         // w400 * h225 - md
         // sm w620
         // lg 217 - 122
         imageSrc={`../${imageSrc}`}
+        imageAlt={imageAlt}
         overline={overline}
         title={title}
         text={text}
