@@ -38,6 +38,8 @@ export interface SZPlusGroupTitleProps {
     margin-left: 8px;
 */
 
+/* Tailwind Knowledge: https://tailwindcss.com/docs/installation */
+
 export const SZPlusGroupTitle: React.FC<SZPlusGroupTitleProps> = ({
   title,
   href,
