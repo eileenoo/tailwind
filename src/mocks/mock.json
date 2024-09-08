@@ -1,0 +1,62 @@
+{
+  "title": "Das Beste aus der SZ",
+  "href": "https://plus.sueddeutsche.de/",
+  "teasers": [
+    {
+      "imageSrc": "urlaub_italien.avif",
+      "href": "https://www.sueddeutsche.de/projekte/artikel/reise/italien-deutschland-urlaub-reisen-e765269/",
+      "overline": "Urlaub",
+      "title": "Italien, eine endlose Liebe",
+      "text": "Hitze, Mafia, Meloni: Trotz allem wird die Sehnsucht die Deutschen wohl auf ewig in den Süden ziehen. Warum ist das so – und was denken die Italiener eigentlich über ihre Gäste?"
+    },
+    {
+      "imageSrc": "gesaenge.avif",
+      "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
+      "overline": "Neurowissenschaften",
+      "title": "Warum berührt Gesang so sehr?",
+      "text": "Wenig spricht Zuhörer so unmittelbar an wie Singen. Was dabei im Gehirn passiert."
+    },
+    {
+      "imageSrc": "abnehmen.avif",
+      "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
+      "overline": "Schlankheitswahn",
+      "title": "Der riskante Hype um die Abnehmspritze",
+      "text": "Mittel wie Wegovy und Ozempic sind immer noch Medikamente, über deren Langzeitwirkung auf Gesunde wenig bekannt ist. Haben das plötzlich alle vergessen?"
+    },
+    {
+      "imageSrc": "schule.avif",
+      "href": "https://www.sueddeutsche.de/projekte/artikel/reise/italien-deutschland-urlaub-reisen-e765269/",
+      "overline": "Bildung",
+      "title": "Frau Irles letzter Schultag",
+      "text": "Nach 37 Jahren als Lehrerin und 16 als Rektorin hört Beate Irle auf. Was hat sie gelernt? Ein Jahr an der Grundschule in Rohrdorf im Alpenvorland, im alltäglichen Kampf gegen Lehrermangel und Stundenausfälle."
+    },
+    {
+      "imageSrc": "king.avif",
+      "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
+      "overline": "Leben auf dem Internat",
+      "title": "King Loui gibt’s nicht mehr",
+      "text": "Bereits mit elf kommt Konstantin Tengelmann auf ein Elite-Internat, mit 15 auf das nächste. Jahre später hört er das erste Mal vom Internatssyndrom. Und versteht: Viele seiner Probleme heute haben mit der Zeit damals zu tun."
+    },
+    {
+      "imageSrc": "wissenschaft.avif",
+      "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
+      "overline": "Katalin Karikó",
+      "title": "„Ich habe kein besonderes Talent und nicht mal ein gutes Gedächtnis“",
+      "text": "Jahrelang erlebte die heutige Nobelpreisträgerin Katalin Karikó Rückschläge. Dann führte ihre Forschung zu den Covid-19-Impfstoffen. Ein Gespräch über die Kraft des Durchhaltens."
+    },
+    {
+      "imageSrc": "kriminell.avif",
+      "href": "https://www.sueddeutsche.de/projekte/artikel/wissen/gesang-neurowissenschaften-psychologie-e433394/",
+      "overline": "Kriminalität",
+      "title": "Gibt es biologische Ursachen für kriminelles Verhalten?",
+      "text": "Was macht Menschen zu Straftätern? Kriminalpsychologin Lydia Benecke therapiert Mörder, Vergewaltiger oder Kinderschänder."
+    },
+    {
+      "imageSrc": "reise_dtl.avif",
+      "href": "https://www.sueddeutsche.de/gesundheit/hype-abnehmspritzen-risiken-lux.69SFjTzjkzmQBRgMdC18g5",
+      "overline": "Reise durch Deutschland",
+      "title": "Bin ich ein AfD-Versteher?",
+      "text": "Ein Jahr lang fuhr Hasnain Kazim mit dem Rad durch Deutschland, etwa 3000 Kilometer. Dabei traf er vor allem im Osten viele AfD-Wähler. Ein Roadtrip des Grauens – und der Erkenntnis. Gastbeitrag von Hasnain Kazim."
+    }
+  ]
+}
