@@ -3,6 +3,8 @@
     // Tailwind Intellisense
     "bradlc.vscode-tailwindcss",
     // Toggle Tailwind Classes
-    "stivo.tailwind-fold"
+    "stivo.tailwind-fold",
+    // POSTCSS Language Support
+    "csstools.postcss"
   ]
 }
