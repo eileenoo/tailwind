@@ -1,4 +1,5 @@
-import { SZPlusGroup } from "./components/SZPlusGroup/SZPlusGroup";
+// import { SZPlusGroup } from "./components/SZPlusGroup/SZPlusGroup";
+import { SZPlusGroup } from "./solution/SZPlusGroup/SZPlusGroup";
 import mockData from "./mocks/mock.json";
 
 export const App: React.FC = () => (
