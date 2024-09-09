@@ -4,7 +4,7 @@ Dieses Projekt bietet eine Einführung in Tailwind CSS und zeigt dessen grundleg
 
 Es beinhaltet eine grundlegende Konfiguration von Tailwind, das als PostCSS-Plugin integriert ist.
 Der Code wurde mithilfe von [Vite] für React erstellt und bietet einen Entwicklungsserver mit Hot Module Reloading.
-Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsreifes Paket generiert werden..
+Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsfertiges Paket generiert werden.
 <br><br>
 
 # Workshop Exercises
@@ -13,19 +13,23 @@ Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsreifes 
 
 # Getting Started
 
-1. Installiere benötigte Dependencies
+1.  Installiere benötigte Dependencies
 
-   ```
-   npm install
-   ```
+    ```
+    npm install
+    ```
 
-2. Starte den Dev Server
+2.  Starte den Dev Server
 
-   ```
-   npm run build
-   ```
+    ```
+    npm run build
+    ```
 
-   <br>
+3.  Bei Verwendung von VSCODE: Empfohelene Extensions installieren
+
+    Installiere die Extensions aus der `.vscode/settings.json` Datei.
+
+    <br>
 
 # Integration von Tailwind
 
@@ -104,9 +108,7 @@ Die Tailwind-Direktiven müssen zur Haupt-CSS-Datei hinzugefügt werden, um die 
 3. VSCODE [Tailwind CSS Intellisense]
 
    Intelligent Tailwind CSS tooling for VS Code.
-
-- Autocomplete
-- Intellisense
+   Stellt Autocomplete und Intellisense bereit.
 
 4. VSCODE [Tailwind Fold]
 
