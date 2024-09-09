@@ -4,7 +4,7 @@
 
 /* 
     Könnte auch als normale CSS Klasse geschrieben werden 
-    
+
         .sz-font-body { ... }
 
     Die @layer-Direktive hilft dabei, die Reihenfolge der Deklarationen zu steuern,

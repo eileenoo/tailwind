@@ -15,12 +15,13 @@ export const TeaserElement: React.FC<TeaserElementProps> = ({
   text,
   href,
 }) => (
+  // TODO: Add styles here
   <div>
-    <a href={href}>
-      <img src={imageSrc} alt={imageAlt} />
-      <h4>{overline}</h4>
-      <h3>{title}</h3>
-      <p>{text}</p>
+    <a className="" href={href}>
+      <img className="" src={imageSrc} alt={imageAlt} />
+      <h4 className="">{overline}</h4>
+      <h3 className="">{title}</h3>
+      <p className="">{text}</p>
     </a>
   </div>
 );

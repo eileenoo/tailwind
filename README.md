@@ -9,7 +9,10 @@ Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsfertige
 
 # Workshop Exercises
 
-// TODO!
+Adde utility classes zu den bestehenden Komponenten (`/src/components`)um sie zu stylen.
+Alernativ: Suche nach "TODO" um die Stellen im Code direkt zu finden.
+
+In der [Tailwind Dokumentation] können alle benötigten utility Classes gefunden werden.
 
 # Getting Started
 
@@ -128,3 +131,4 @@ Die Tailwind-Direktiven müssen zur Haupt-CSS-Datei hinzugefügt werden, um die 
 [Tailwind Fold]: https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold
 [PostCSS Language Support]: https://marketplace.visualstudio.com/items?itemName=csstools.postcss
 [Tailwind Debug Screens]: https://github.com/jorenvanhee/tailwindcss-debug-screens?tab=readme-ov-file
+[Tailwind Dokumentation]: https://tailwindcss.com/docs/
