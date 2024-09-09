@@ -60,6 +60,7 @@ npx tailwindcss init -p
 Dieser Befehl generiert die Dateien `tailwind.config.js` und `postcss.config.js`.
 
 In der `tailwind.config.js` müssen die Pfade zu allen Dateien angegeben werden, die Tailwind beim Build-Prozess nach Klassennamen durchsuchen soll. Dies stellt sicher, dass nur benötigtes CSS generiert wird, um ungenutzte Klassen in der Produktionsversion zu vermeiden.
+Tailwind verwendet reguläre Ausdrücke (regex), um nach Klassennamen zu suchen, daher funktionieren Template Strings nicht (`Tailwind Merge`, `ClassNames` und `CSLX` können hier Abhilfe schaffen).
 
 ```js
   // In tailwind.config.js
