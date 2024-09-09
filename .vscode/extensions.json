@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    // Tailwind Intellisense
+    "bradlc.vscode-tailwindcss",
+    // Toggle Tailwind Classes
+    "stivo.tailwind-fold"
+  ]
+}
