@@ -15,16 +15,16 @@ export const TeaserElement: React.FC<TeaserElementProps> = ({
   text,
   href,
 }) => (
-  <a className="flex flex-col items-center text-center w-full" href={href}>
-    <div className="w-4/5 md:w-full lg:w-full self-center">
+  <a className="flex w-full flex-col items-center text-center" href={href}>
+    <div className="w-4/5 self-center md:w-full lg:w-full">
       <img className="mb-4" src={imageSrc} alt={imageAlt} />
-      <h4 className="mb-1 text-xs tracking-wide font-bold font-sans">
+      <h4 className="mb-1 font-sans text-xs font-bold tracking-wide">
         {overline}
       </h4>
-      <h3 className="font-sans font-extrabold tracking-[0.015em] text-lg overflow-hidden text-ellipsis">
+      <h3 className="overflow-hidden text-ellipsis font-sans text-lg font-extrabold tracking-[0.015em]">
         {title}
       </h3>
-      <p className="font-sans font-normal text-[17px]/[1.5] mt-2">{text}</p>
+      <p className="mt-2 font-sans text-[17px]/[1.5] font-normal">{text}</p>
     </div>
   </a>
 );
