@@ -18,7 +18,7 @@ export const SZPlusGroupTitle: React.FC<SZPlusGroupTitleProps> = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <h2 className="text-primary-headline dark:text-primary-dark-headline whitespace-normal font-serif text-[27px]/[1.3] font-normal tracking-tight">
+      <h2 className="text-primary-headline dark:text-primary-dark-headline sz-font-header whitespace-normal">
         {title}
       </h2>
       <IoIosArrowForward

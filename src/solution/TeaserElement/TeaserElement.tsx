@@ -21,13 +21,9 @@ export const TeaserElement: React.FC<TeaserElementProps> = ({
   >
     <div className="w-4/5 self-center md:w-full lg:w-full">
       <img className="mb-4" src={imageSrc} alt={imageAlt} />
-      <h4 className="mb-1 font-sans text-xs font-bold tracking-wide">
-        {overline}
-      </h4>
-      <h3 className="overflow-hidden text-ellipsis font-sans text-lg font-extrabold tracking-[0.015em]">
-        {title}
-      </h3>
-      <p className="mt-2 font-sans text-[17px]/[1.5] font-normal">{text}</p>
+      <h4 className="sz-font-overline mb-1">{overline}</h4>
+      <h3 className="sz-font-title overflow-hidden text-ellipsis">{title}</h3>
+      <p className="sz-font-body mt-2">{text}</p>
     </div>
   </a>
 );
