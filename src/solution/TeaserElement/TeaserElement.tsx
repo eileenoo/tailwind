@@ -16,7 +16,7 @@ export const TeaserElement: React.FC<TeaserElementProps> = ({
   href,
 }) => (
   <a className="flex flex-col items-center text-center w-full" href={href}>
-    <div className="w-4/5 self-center">
+    <div className="w-4/5 md:w-full lg:w-full self-center">
       <img className="mb-4" src={imageSrc} alt={imageAlt} />
       <h4 className="mb-1 text-xs tracking-wide font-bold font-sans">
         {overline}
