@@ -1,69 +1,126 @@
-# Needed Dependencies for Tailwind
+# SZ CSS Workshop - Tailwind
 
-## tailwindcss
-- Tailwind Main package 
+Dieses Projekt bietet eine Einführung in Tailwind CSS und zeigt dessen grundlegende Verwendung.
 
-## postcss 
-- Tailwind peer dependency
-- Tailwind is PostCSS Plugin
-- PostCSS is a preprocessor, with many possbile plugins like autoprefixing, nesting, purging unused styles, minifying CSS, adding vendor prefixes, etc.
+Es beinhaltet eine grundlegende Konfiguration von Tailwind, das als PostCSS-Plugin integriert ist.
+Der Code wurde mithilfe von [Vite] für React erstellt und bietet einen Entwicklungsserver mit Hot Module Reloading.
+Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsreifes Paket generiert werden..
+<br><br>
 
-## autoprefixer
-- Tailwind peer dependency
-- Autoprefixer is PostCSS Plugin
-- Adds vendor prefixes to CSS rules using values from [Can I Use].
+# Workshop Exercises
 
-[Can I Use]:        https://caniuse.com/ 
+// TODO!
 
+# Getting Started
 
+1. Installiere benötigte Dependencies
 
-# React + TypeScript + Vite
+   ```
+   npm install
+   ```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Starte den Dev Server
 
-Currently, two official plugins are available:
+   ```
+   npm run build
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   <br>
 
-## Expanding the ESLint configuration
+# Integration von Tailwind
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Um Tailwind in dieses Projekt zu integrieren, wurden folgende Punkte durchgeführt.
 
-- Configure the top-level `parserOptions` property like this:
+## Benötigte Dependencies hinzufügen
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```json
+    // Main dependency
+    "tailwindcss": "^3.4.10",
+    // Peer dependency, tailwind wird als PostCss Plugin integriert
+    "postcss": "^8.4.45",
+    // Peer dependency, fügt vendor prefixes hinzu
+    "autoprefixer": "^10.4.20",
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Erstellung der Tailwind und Postcss Konfigurationsdateien
+
+Die Tailwind- und PostCSS-Konfigurationsdateien können entweder manuell oder mit folgendem Befehl erstellt werden:
+
+```
+npx tailwindcss init -p
+```
+
+Dieser Befehl generiert die Dateien `tailwind.config.js` und `postcss.config.js`.
+
+In der `tailwind.config.js` müssen die Pfade zu allen Dateien angegeben werden, die Tailwind beim Build-Prozess nach Klassennamen durchsuchen soll. Dies stellt sicher, dass nur benötigtes CSS generiert wird, um ungenutzte Klassen in der Produktionsversion zu vermeiden.
 
 ```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+  // In tailwind.config.js
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
+Die `postcss.config.js` sieht standardmäßig so aus:
+
+```js
+// In postcss.config.js
+module.exports = {
   plugins: {
-    // Add the react plugin
-    react,
+    tailwindcss: {},
+    autoprefixer: {},
   },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+};
 ```
+
+## Hinzufügen der Tailwind Directives zu CSS
+
+Die Tailwind-Direktiven müssen zur Haupt-CSS-Datei hinzugefügt werden, um die Basis-, Komponenten- und Utility-Klassen von Tailwind zu verwenden:
+
+```css
+/* In main.css file */
+
+/* This injects Tailwind's base styles and any base styles registered by plugins. */
+@tailwind base;
+/* This injects Tailwind's component classes and any component classes registered by plugins.*/
+@tailwind compoenents;
+/* This injects Tailwind's utility classes and any utility classes registered by plugins. */
+@tailwind utilities;
+```
+
+<br>
+
+# Empfohlenes Tooling
+
+1. [Prettier Plugin Tailwind]
+
+   Sorts Tailwind classes.
+   Removes duplicate classes.
+   Removes unnecessary whitespaces.
+
+2. [Tailwind Debug Screens]
+
+   A Tailwind CSS component that shows the currently active screen (responsive breakpoint).
+   Must be disabled in production.
+
+3. VSCODE [Tailwind CSS Intellisense]
+
+   Intelligent Tailwind CSS tooling for VS Code.
+
+- Autocomplete
+- Intellisense
+
+4. VSCODE [Tailwind Fold]
+
+   Improves code readability by folding tailwind class attributes.
+   `CTRL + Alt + A` to toggle classList.
+
+5. VSCODE [PostCSS Language Support]
+
+   Syntax highlighting for modern and experimental CSS in VSCode.
+   Removes warnings for Tailwind directives in your main css file.
+
+[Vite]: https://vitejs.dev/
+[Prettier Plugin Tailwind]: https://github.com/tailwindlabs/prettier-plugin-tailwindcss
+[Tailwind CSS Intellisense]: https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+[Tailwind Fold]: https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold
+[PostCSS Language Support]: https://marketplace.visualstudio.com/items?itemName=csstools.postcss
+[Tailwind Debug Screens]: https://github.com/jorenvanhee/tailwindcss-debug-screens?tab=readme-ov-file
