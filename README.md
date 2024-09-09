@@ -95,8 +95,6 @@ Die Tailwind-Direktiven müssen zur Haupt-CSS-Datei hinzugefügt werden, um die 
 
 <br>
 
-# Custom Styles und Theming
-
 # Empfohlenes Tooling
 
 1. [Prettier Plugin Tailwind]
