@@ -2,7 +2,7 @@
 
 Dieses Projekt bietet eine Einführung in Tailwind CSS und zeigt dessen grundlegende Verwendung.
 
-Es beinhaltet eine grundlegende Konfiguration von Tailwind, das als PostCSS-Plugin integriert ist.
+Es beinhaltet eine grundlegende Konfiguration von Tailwind, das als PostCSS-Plugin integriert ist (ideal für die Kombination mit Vite).
 Der Code wurde mithilfe von [Vite] für React erstellt und bietet einen Entwicklungsserver mit Hot Module Reloading.
 Zudem kann der Code mit dem `build` Befehl gebündelt und ein produktionsfertiges Paket generiert werden.
 <br><br>
@@ -91,6 +91,8 @@ Die Tailwind-Direktiven müssen zur Haupt-CSS-Datei hinzugefügt werden, um die 
 ```
 
 <br>
+
+# Custom Styles und Theming
 
 # Empfohlenes Tooling
 

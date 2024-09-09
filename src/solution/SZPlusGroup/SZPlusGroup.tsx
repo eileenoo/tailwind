@@ -11,7 +11,7 @@ export const SZPlusGroup: React.FC<SZPlusGroupProps> = ({
   href,
   teasers,
 }) => (
-  <section className="flex h-screen w-screen flex-col bg-gray-100 py-12">
+  <section className="bg-primary-bg dark:bg-primary-dark-bg flex w-screen flex-col py-12">
     <SZPlusGroupTitle title={title} href={href} />
     <TeaserGroup teasers={teasers} />
   </section>

@@ -15,7 +15,10 @@ export const TeaserElement: React.FC<TeaserElementProps> = ({
   text,
   href,
 }) => (
-  <a className="flex w-full flex-col items-center text-center" href={href}>
+  <a
+    className="text-primary-body dark:text-primary-dark-body flex w-full flex-col items-center text-center"
+    href={href}
+  >
     <div className="w-4/5 self-center md:w-full lg:w-full">
       <img className="mb-4" src={imageSrc} alt={imageAlt} />
       <h4 className="mb-1 font-sans text-xs font-bold tracking-wide">
