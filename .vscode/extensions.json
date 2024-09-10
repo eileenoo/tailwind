@@ -5,6 +5,8 @@
     // Toggle Tailwind Classes
     "stivo.tailwind-fold",
     // POSTCSS Language Support
-    "csstools.postcss"
+    "csstools.postcss",
+    // CSS-Modules Intellisense
+    "clinyong.vscode-css-modules"
   ]
 }
